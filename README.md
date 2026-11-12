@@ -8,6 +8,8 @@ For an introduction to the ideas behind category theory, check out [this link](h
 
 There might be papers missing, and some papers are in multiple fields. Feel free to contribute to this list or suggest changes to it by creating a pull request or opening an issue.
 
+When adding a paper, also add a row to [`dates.csv`](dates.csv) with its link and the month it first appeared (`YYYY-MM`, e.g. the `YYMM` of an arXiv ID). The plot above is generated from it by [`paper_plot.py`](paper_plot.py), which fails if a paper has no date.
+
 ### Theses
 
 * [Fundamental Components of Deep Learning: A category-theoretic approach](https://arxiv.org/abs/2403.13001)
