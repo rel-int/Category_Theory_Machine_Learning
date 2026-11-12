@@ -17,6 +17,7 @@ There might be papers missing, and some papers are in multiple fields. Feel free
 * [Compositional Distributional Semantics with Compact Closed Categories and Frobenius Algebras](https://arxiv.org/abs/1505.00138)
 * [Categorical Tools for Natural Language Processing](https://arxiv.org/abs/2212.06636)
 * [Category Theory for Quantum Natural Language Processing](https://arxiv.org/abs/2212.06615)
+* [Mathematical Foundations for a Compositional Account of the Bayesian Brain](https://arxiv.org/abs/2212.12538)
 * [Towards a Categorical Foundation of Deep Learning: A Survey](https://arxiv.org/abs/2410.05353)
   
 ---
@@ -28,6 +29,7 @@ There might be papers missing, and some papers are in multiple fields. Feel free
 * [Position: Topological Deep Learning is the New Frontier for Relational Learning](https://arxiv.org/abs/2402.08871)
 * [Backprop as Functor](https://arxiv.org/abs/1711.10455)
 * [Lenses and Learners](https://arxiv.org/abs/1903.03671)
+* [Towards Foundations of Categorical Cybernetics](https://arxiv.org/abs/2105.06332)
 * [Reverse Derivative Ascent](https://arxiv.org/abs/2101.10488)
 * [Dioptics](http://events.cs.bham.ac.uk/syco/strings3-syco5/papers/dalrymple.pdf)
 * [Learning Functors using Gradient Descent](http://www.cs.ox.ac.uk/ACT2019/preproceedings/Bruno%20Gavranovic.pdf) (longer version [here](https://arxiv.org/abs/1907.08292))
@@ -35,6 +37,7 @@ There might be papers missing, and some papers are in multiple fields. Feel free
 * [Deep neural networks as nested dynamical systems](https://arxiv.org/abs/2111.01297)
 * [Category Theory in Machine Learning](https://arxiv.org/abs/2106.07032)
 * [Neural network layers as parametric spans](https://arxiv.org/abs/2208.00809)
+* [Neural Circuit Diagrams: Robust Diagrams for the Communication, Implementation, and Analysis of Deep Learning Architectures](https://arxiv.org/abs/2402.05424)
 * [Categories of Differentiable Polynomial Circuits for Machine Learning](https://arxiv.org/abs/2203.06430)
 * [Learners are almost Free Compact Closed](https://oxford24.github.io/assets/act-papers/39_learners_are_almost_free_compa.pdf)
 * [Going Beyond Neural Network Feature Similarity: The Network Feature Complexity and Its Interpretation Using Category Theory](https://arxiv.org/abs/2310.06756)
@@ -161,6 +164,11 @@ There might be papers missing, and some papers are in multiple fields. Feel free
 * [Space-time tradeoffs of lenses and optics via higher category theory](https://arxiv.org/abs/2209.09351)
 * [Using Rewrite Strategies for Efficient Functional Automatic Differentiation](https://arxiv.org/abs/2307.02447)
 
+### Quantum machine learning
+* [Diagrammatic Differentiation for Quantum Machine Learning](https://arxiv.org/abs/2103.07960)
+* [Differentiating and Integrating ZX Diagrams with Applications to Quantum Machine Learning](https://arxiv.org/abs/2201.13250)
+* [Diagrammatic Analysis for Parameterized Quantum Circuits](https://arxiv.org/abs/2204.01307)
+
 ### CuTe Layouts
 
 * [CuTe Layout Representation and Algebra](https://arxiv.org/abs/2603.02298v1)
@@ -203,6 +211,7 @@ There might be papers missing, and some papers are in multiple fields. Feel free
 * [Disintegration and Bayesian Inversion via String Diagrams](https://arxiv.org/abs/1709.00322)
 * [Categorical Stochastic Processes and Likelihood](https://arxiv.org/abs/2005.04735)
 * [Bayesian Updates Compose Optically](https://arxiv.org/abs/2006.01631)
+* [Compositional Active Inference I: Bayesian Lenses. Statistical Games](https://arxiv.org/abs/2109.04461)
 * [Automatic Backward Filtering Forward Guiding for Markov processes and graphical models](https://arxiv.org/abs/2010.03509)
 * [Compositionality in algorithms for smoothing](https://arxiv.org/abs/2303.13865)
 * [A Channel-Based Perspective on Conjugate Priors](https://arxiv.org/abs/1707.00269)
@@ -226,6 +235,7 @@ There might be papers missing, and some papers are in multiple fields. Feel free
 ### Reinforcement Learning
 
 * [Value Iteration is Optic Composition](https://arxiv.org/abs/2206.04547)
+* [Reinforcement Learning in Categorical Cybernetics](https://arxiv.org/abs/2404.02688)
 * [Compositional Behavioral Semantics for State Abstraction in Reinforcement Learning](https://arxiv.org/abs/2606.25357)
 * [Categorical semantics of compositional reinforcement learning](https://arxiv.org/abs/2208.13687)
 * [Reduce, Reuse, Recycle: Categories for Compositional Reinforcement Learning](https://arxiv.org/abs/2408.13376v3)
