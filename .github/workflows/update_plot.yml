@@ -5,6 +5,12 @@ on:
     branches: [master]
     paths:
       - README.md
+      - dates.csv
+      - paper_plot.py
+  pull_request:
+    paths:
+      - README.md
+      - dates.csv
       - paper_plot.py
 
 permissions:
@@ -21,7 +27,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install matplotlib seaborn numpy pillow
+        run: pip install matplotlib
 
       - name: Generate plot
         env:
@@ -29,6 +35,7 @@ jobs:
         run: python paper_plot.py
 
       - name: Commit and push if changed
+        if: github.event_name == 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

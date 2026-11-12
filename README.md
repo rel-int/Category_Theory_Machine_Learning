@@ -8,12 +8,18 @@ For an introduction to the ideas behind category theory, check out [this link](h
 
 There might be papers missing, and some papers are in multiple fields. Feel free to contribute to this list or suggest changes to it by creating a pull request or opening an issue.
 
+When adding a paper, also add a row to [`dates.csv`](dates.csv) with its link and the month it first appeared (`YYYY-MM`, e.g. the `YYMM` of an arXiv ID). The plot above is generated from it by [`paper_plot.py`](paper_plot.py), which fails if a paper has no date.
+
 ### Theses
 
 * [Fundamental Components of Deep Learning: A category-theoretic approach](https://arxiv.org/abs/2403.13001)
 * [Robust Diagrams for Deep Learning Architectures: Applications and Theory](https://www.vtabbott.io/content/files/2023/11/Robust-Diagrams-for-Deep-Learning-Architectures.pdf)
 * [Category-Theoretic Datastructures and Algorithms for Learning Polynomial Circuits](https://eprints.soton.ac.uk/483757/1/paul_wilson_thesis_acrobat_fixup.pdf)
+* [Category-Theoretic Quantitative Compositional Distributional Models of Natural Language Semantics](https://arxiv.org/abs/1311.1539)
+* [Compositional Distributional Semantics with Compact Closed Categories and Frobenius Algebras](https://arxiv.org/abs/1505.00138)
+* [Categorical Tools for Natural Language Processing](https://arxiv.org/abs/2212.06636)
 * [Category Theory for Quantum Natural Language Processing](https://arxiv.org/abs/2212.06615)
+* [Mathematical Foundations for a Compositional Account of the Bayesian Brain](https://arxiv.org/abs/2212.12538)
 * [Towards a Categorical Foundation of Deep Learning: A Survey](https://arxiv.org/abs/2410.05353)
   
 ---
@@ -25,6 +31,7 @@ There might be papers missing, and some papers are in multiple fields. Feel free
 * [Position: Topological Deep Learning is the New Frontier for Relational Learning](https://arxiv.org/abs/2402.08871)
 * [Backprop as Functor](https://arxiv.org/abs/1711.10455)
 * [Lenses and Learners](https://arxiv.org/abs/1903.03671)
+* [Towards Foundations of Categorical Cybernetics](https://arxiv.org/abs/2105.06332)
 * [Reverse Derivative Ascent](https://arxiv.org/abs/2101.10488)
 * [Dioptics](http://events.cs.bham.ac.uk/syco/strings3-syco5/papers/dalrymple.pdf)
 * [Learning Functors using Gradient Descent](http://www.cs.ox.ac.uk/ACT2019/preproceedings/Bruno%20Gavranovic.pdf) (longer version [here](https://arxiv.org/abs/1907.08292))
@@ -32,6 +39,7 @@ There might be papers missing, and some papers are in multiple fields. Feel free
 * [Deep neural networks as nested dynamical systems](https://arxiv.org/abs/2111.01297)
 * [Category Theory in Machine Learning](https://arxiv.org/abs/2106.07032)
 * [Neural network layers as parametric spans](https://arxiv.org/abs/2208.00809)
+* [Neural Circuit Diagrams: Robust Diagrams for the Communication, Implementation, and Analysis of Deep Learning Architectures](https://arxiv.org/abs/2402.05424)
 * [Categories of Differentiable Polynomial Circuits for Machine Learning](https://arxiv.org/abs/2203.06430)
 * [Learners are almost Free Compact Closed](https://oxford24.github.io/assets/act-papers/39_learners_are_almost_free_compa.pdf)
 * [Going Beyond Neural Network Feature Similarity: The Network Feature Complexity and Its Interpretation Using Category Theory](https://arxiv.org/abs/2310.06756)
@@ -92,6 +100,56 @@ There might be papers missing, and some papers are in multiple fields. Feel free
 
 ---
 
+### Natural Language Processing
+
+#### Compositional distributional semantics (DisCoCat)
+* [Mathematical Foundations for a Compositional Distributional Model of Meaning](https://arxiv.org/abs/1003.4394)
+* [Concrete Sentence Spaces for Compositional Distributional Models of Meaning](https://arxiv.org/abs/1101.0309)
+* [Experimental Support for a Categorical Compositional Distributional Model of Meaning](https://arxiv.org/abs/1106.4058)
+* [Multi-Step Regression Learning for Compositional Distributional Semantics](https://arxiv.org/abs/1301.6939)
+* [Lambek vs. Lambek: Functorial Vector Space Semantics and String Diagrams for Lambek Calculus](https://arxiv.org/abs/1302.0393)
+* [The Frobenius Anatomy of Word Meanings I: Subject and Object Relative Pronouns](https://arxiv.org/abs/1404.5278)
+* [Open System Categorical Quantum Semantics in Natural Language Processing](https://arxiv.org/abs/1502.00831)
+* [Sentence Entailment in Compositional Distributional Semantics](https://arxiv.org/abs/1512.04419)
+* [Graded Entailment for Compositional Distributional Semantics](https://arxiv.org/abs/1601.04908)
+* [Coordination in Categorical Compositional Distributional Semantics](https://arxiv.org/abs/1606.01515)
+* [Distributional Inclusion Hypothesis for Tensor-based Composition](https://arxiv.org/abs/1610.04416)
+* [Interacting Conceptual Spaces I: Grammatical Composition of Concepts](https://arxiv.org/abs/1703.08314)
+* [Towards Compositional Distributional Discourse Analysis](https://arxiv.org/abs/1811.03277)
+* [The Mathematics of Text Structure](https://arxiv.org/abs/1904.03478)
+* [Functorial Question Answering](https://arxiv.org/abs/1905.07408)
+* [Incremental Monoidal Grammars](https://arxiv.org/abs/2001.02296)
+* [Towards Logical Negation for Compositional Distributional Semantics](https://arxiv.org/abs/2005.04929)
+* [A CCG-Based Version of the DisCoCat Framework](https://arxiv.org/abs/2105.07720)
+* [Distilling Text into Circuits](https://arxiv.org/abs/2301.10595)
+* [Higher-Order DisCoCat (Peirce-Lambek-Montague semantics)](https://arxiv.org/abs/2311.17813)
+* [Towards Compositional Interpretability for XAI](https://arxiv.org/abs/2406.17583)
+* [Towards a Comparative Framework for Compositional AI Models](https://arxiv.org/abs/2507.02940)
+
+#### Quantum natural language processing
+* [Quantum Natural Language Processing on Near-Term Quantum Computers](https://arxiv.org/abs/2005.04147)
+* [Foundations for Near-Term Quantum Natural Language Processing](https://arxiv.org/abs/2012.03755)
+* [Grammar-Aware Sentence Classification on Quantum Computers](https://arxiv.org/abs/2012.03756)
+* [QNLP in Practice: Running Compositional Models of Meaning on a Quantum Computer](https://arxiv.org/abs/2102.12846)
+* [lambeq: An Efficient High-Level Python Library for Quantum NLP](https://arxiv.org/abs/2110.04236)
+* [Quantum Algorithms for Compositional Text Processing](https://arxiv.org/abs/2408.06061)
+* [Scalable and Interpretable Quantum Natural Language Processing: an Implementation on Trapped Ions](https://arxiv.org/abs/2409.08777)
+
+#### Language models and sequence modelling
+* [Modeling Sequences with Quantum States: A Look Under the Hood](https://arxiv.org/abs/1910.07425)
+* [Language Modeling with Reduced Densities](https://arxiv.org/abs/2007.03834)
+* [Functorial Language Models](https://arxiv.org/abs/2103.14411)
+* [An Enriched Category Theory of Language: From Syntax to Semantics](https://arxiv.org/abs/2106.07890)
+* [Assessing the Unitary RNN as an End-to-End Compositional Model of Syntax](https://arxiv.org/abs/2208.05719)
+* [A Markov Categorical Framework for Language Modeling](https://arxiv.org/abs/2507.19247)
+* [Topos Theory for Generative AI and LLMs](https://arxiv.org/abs/2508.08293)
+
+#### Software
+* [DisCoPy: Monoidal Categories in Python](https://arxiv.org/abs/2005.02975)
+* [DisCoPy for the Quantum Computer Scientist](https://arxiv.org/abs/2205.05190)
+
+---
+
 ### Differentiable programming / automatic differentiation
 * [CHAD: Combinatory Homomorphic Automatic Differentiation](https://arxiv.org/abs/2103.15776)
 * [CHAD for Expressive Total Languages](https://arxiv.org/abs/2110.00446)
@@ -107,6 +165,11 @@ There might be papers missing, and some papers are in multiple fields. Feel free
 * [Higher Order Automatic Differentiation of Higher Order Functions](https://arxiv.org/abs/2101.06757)
 * [Space-time tradeoffs of lenses and optics via higher category theory](https://arxiv.org/abs/2209.09351)
 * [Using Rewrite Strategies for Efficient Functional Automatic Differentiation](https://arxiv.org/abs/2307.02447)
+
+### Quantum machine learning
+* [Diagrammatic Differentiation for Quantum Machine Learning](https://arxiv.org/abs/2103.07960)
+* [Differentiating and Integrating ZX Diagrams with Applications to Quantum Machine Learning](https://arxiv.org/abs/2201.13250)
+* [Diagrammatic Analysis for Parameterized Quantum Circuits](https://arxiv.org/abs/2204.01307)
 
 ### CuTe Layouts
 
@@ -150,6 +213,7 @@ There might be papers missing, and some papers are in multiple fields. Feel free
 * [Disintegration and Bayesian Inversion via String Diagrams](https://arxiv.org/abs/1709.00322)
 * [Categorical Stochastic Processes and Likelihood](https://arxiv.org/abs/2005.04735)
 * [Bayesian Updates Compose Optically](https://arxiv.org/abs/2006.01631)
+* [Compositional Active Inference I: Bayesian Lenses. Statistical Games](https://arxiv.org/abs/2109.04461)
 * [Automatic Backward Filtering Forward Guiding for Markov processes and graphical models](https://arxiv.org/abs/2010.03509)
 * [Compositionality in algorithms for smoothing](https://arxiv.org/abs/2303.13865)
 * [A Channel-Based Perspective on Conjugate Priors](https://arxiv.org/abs/1707.00269)
@@ -173,6 +237,7 @@ There might be papers missing, and some papers are in multiple fields. Feel free
 ### Reinforcement Learning
 
 * [Value Iteration is Optic Composition](https://arxiv.org/abs/2206.04547)
+* [Reinforcement Learning in Categorical Cybernetics](https://arxiv.org/abs/2404.02688)
 * [Compositional Behavioral Semantics for State Abstraction in Reinforcement Learning](https://arxiv.org/abs/2606.25357)
 * [Categorical semantics of compositional reinforcement learning](https://arxiv.org/abs/2208.13687)
 * [Reduce, Reuse, Recycle: Categories for Compositional Reinforcement Learning](https://arxiv.org/abs/2408.13376v3)
@@ -213,7 +278,6 @@ There might be papers missing, and some papers are in multiple fields. Feel free
 * [A Constructive, Type-Theoretic Approach to Regression via Global Optimisation](https://arxiv.org/abs/2006.12868)
 * [Functorial Manifold Learning](https://arxiv.org/abs/2011.07435)
 * [Diegetic representation of feedback in open games](https://arxiv.org/abs/2206.12338)
-* [Assessing the Unitary RNN as an End-to-End Compositional Model of Syntax](https://arxiv.org/abs/2208.05719)
 * [Classifying Clustering Schemes](https://arxiv.org/abs/1011.5270)
 * [Categorical Hopfield Networks](https://arxiv.org/abs/2201.02756)
 * [A Category-theoretical Meta-analysis of Definitions of Disentanglement](https://arxiv.org/abs/2305.06886)
